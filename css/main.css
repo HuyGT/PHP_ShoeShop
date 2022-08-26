@@ -1,0 +1,338 @@
+
+.hm-gradient {
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* ----------------------------------------- CSS Form Login Register ------------------------------------------------- */
+.login-form{
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 2px double black;
+  border-radius: 10px;
+}
+.input-box input{
+  padding: 7.5px 15px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  outline: none;
+}
+.btn-box{
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.btn-box button{
+  padding: 7.5px 15px;
+  border-radius: 2px;
+  background-color: #009999;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  
+}
+/*------------------------------------------------------ css cho formdangnhap dangky----------------------- */
+.form-signin {
+  width: 100%;
+}
+
+.card:hover .anh {
+  top: 5px;
+}
+
+img.card-img-top.anh {
+  position: relative;
+  top: 15px;
+  transition: 0.3s;
+}
+.form-signin .btn {
+  font-size: 80%;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+.modal-body hr {
+  position: relative;
+  top: 1px;
+}
+
+.btn-signin:hover {
+  color: black !important;
+}
+
+#formdangky .form-signin p {
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+#formdangky .form-signin a {
+  display: block;
+  font-size: 13px;
+}
+
+label.error {
+  display: inline-block;
+  color: red;
+  width: 300px;
+
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+/*----------------------------------------------- het css cho form dang nhap dangky------------------------------- */
+
+/* css cho navbar  */
+.fa {
+  color: black;
+}
+body,
+html {
+  background-color: #f8f9fa;
+}
+
+
+
+.navbar input.form-control {
+  border: 2px solid #cf111a !important;
+}
+
+li.nav-item a {
+  transition: 0.2s;
+}
+
+li.nav-item:hover a {
+  color: #cf111a !important;
+}
+
+a.nav-link {
+  padding-top: 8px;
+}
+
+a.navbar-brand {
+  font-size: 34px;
+}
+
+
+
+
+
+
+
+
+a.btn.btn-secondary.rounded-circle {
+  width: 42px;
+  height: 40px;
+  background-color: #e3eeff;
+  border: #cacaca;
+}
+
+.nutcuonlen {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.nutcuonlen.hienthi {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* het css cho navbar  */
+#sidebar a,
+#sidebar a:hover,
+#sidebar a:focus {
+  color: #1d2129;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.mainmenu-area {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 999;
+}
+.mainmenu-area ul.navbar-nav li a {
+  color: #6e6a6a;
+  font-size: 14px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.mainmenu-area ul.navbar-nav li:hover a,
+.mainmenu-area ul.navbar-nav li.active a {
+  background: #f06;
+  color: #fff;
+}
+.mainmenu-area .nav > li > a:focus {
+  color: #fff;
+}
+.nav-profile img{
+    width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+/* ---------------------------------------------------
+    Promo
+  ----------------------------------------------------- */
+.promo-area {
+  color: #fff;
+  padding: 40px 0 40px;
+}
+.single-promo {
+  font-size: 25px;
+  font-weight: 200;
+  padding: 20px 10px;
+  text-align: center;
+}
+.single-promo i {
+  font-size: 50px;
+}
+
+.single-promo:hover {
+  color: #fff;
+  background: #222;
+}
+.promo1 {
+  background: #ee5057;
+}
+.promo2 {
+  background: #ffd900;
+}
+.promo3 {
+  background: #fa8072;
+}
+.promo4 {
+  background: #4abebd;
+}
+.fa {
+  color: #fff;
+}
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+  ----------------------------------------------------- */
+#sidebar {
+  color: #1d2129;
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+  display: none;
+}
+
+#sidebar .sidebar-header {
+  display: none;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  border-left: 3px solid #e9ebee;
+}
+
+#sidebar ul li a:hover {
+  border-left: 3px solid #cf111a;
+  color: #1d2129;
+  background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+  border-left: 3px solid #cf111a;
+  color: #1d2129;
+  background-color: #fff;
+}
+
+#sidebar ul li .active > a {
+  color: #cf111a;
+}
+
+/*Botao menu sidebar*/
+#sidebarCollapse {
+  display: none;
+}
+/* css cho dichvu  */
+.dichvu p.detail {
+  font-size: 12px;
+  margin-bottom: 1px;
+  width: 198px;
+}
+
+.dichvu {
+  padding: 24px 0px 24px;
+}
+
+.dichvu h3.tieude {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.dichvu .noidung {
+  width: 180px;
+}
+
+.dichvu img {
+  width: 57px;
+  height: 57px;
+  margin-right: 10px;
+}
+/* het css cho dichvu  */
+/* css cho footer  */
+.ptthanhtoan {
+  width: 200px;
+}
+
+footer .row a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  transition: 0.3s;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+footer .row a:hover {
+  color: #f5a623;
+}
+
+footer .header {
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+/* het css cho footer  */
